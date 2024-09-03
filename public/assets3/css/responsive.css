@@ -1,0 +1,146 @@
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+@media (max-width: 1450px) {
+	.banner-content h1 {
+		font-size: 72px;
+		line-height: 82px;
+	}
+	.banner-content {
+		padding: 140px 0px;
+	}
+}
+@media (max-width: 1199px) {
+	.menu-right {
+		display: none;
+	}
+	.achievement-left {
+		margin-bottom: 50px;
+	}
+	.blog-content {
+		padding: 25px 25px;
+	}
+	.blog-content li {
+		margin-right: 15px;
+		font-size: 14px;
+	}
+	.banner-content {
+		padding: 90px 0px;
+	}
+	.banner-content h1 {
+		font-size: 68px;
+	}
+	.lg-mb-30 {
+		margin-bottom: 30px;
+	}
+	.gallery ul li {
+		max-width: 46%;
+		margin-bottom: 18px;
+		margin-right: 18px;
+	}
+	.contact-item {
+		padding: 30px 20px;
+	}
+	.contact-item span {
+		font-size: 16px;
+	}
+}
+@media (max-width: 991px) {
+	.banner-right,
+	.home-left-bg,
+	.header-menu.sticky-menu,
+	.main-menu {
+		display: none;
+	}
+	.md-mb-30 {
+		margin-bottom: 30px;
+	}
+	.contact_list .contact-widget-item {
+		display: flex !important;
+	}
+	.footer_menu,
+	.footer_menu.two {
+		margin-left: 0;
+	}
+	/* mobile menu */
+	.gallery ul li {
+		margin-bottom: 0;
+	}
+	.gallery ul li:nth-child(2) {
+		margin-right: 15px;
+	}
+	.header-menu {
+		padding: 30px 0px;
+	}
+	#mobile-menu {
+		display: block;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.slicknav_menu {
+		font-size: 24px;
+		background: transparent;
+		padding: 0;
+		z-index: 9999999;
+		width: 100%;
+		position: absolute;
+		background: red;
+		top: 0px;
+		right: 0px;
+	}
+	.post-item ul li {
+	    padding-bottom: 56px;
+    }
+}
+@media (max-width: 767px) {
+	.gallery ul li:nth-child(2) {
+		margin-right: 0;
+	}
+	.achievement-item {
+		padding: 25px 15px;
+	}
+	.footer-copyright,
+	.footer-social,
+	.top-left,
+	.top-right {
+		text-align: center;
+	}
+	.form-right {
+		padding: 30px;
+	}
+	.post-item ul li {
+		padding-bottom: 56px;
+	}
+}
+@media (max-width: 575px) {
+	.banner-content h1 {
+		font-size: 56px;
+		line-height: 72px;
+	}
+	h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.section-padding {
+		padding: 70px 0px;
+	}
+	.footer.section-padding {
+		padding: 70px 0px;
+		padding-bottom: 50px;
+	}
+	.top-left li {
+		display: block;
+		margin-right: 0;
+	}
+	.post-item ul li {
+		padding-bottom: 56px;
+	}
+}
+@media (max-width: 427px) {
+	.post-item ul li {
+		padding-bottom: 28PX;
+	}
+}
